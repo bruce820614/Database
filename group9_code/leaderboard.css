@@ -1,0 +1,24 @@
+/*HITO排行榜----------*/
+#hitoRank {width:257px;background: #ebebeb url(../imgs/media_body.gif) repeat-y 1px bottom; position:relative}
+.hitoRankTitle { clear:both; height:31px;width:252px; margin-left:2px; }
+.hitoRankTitle .menu { background:  url(../imgs/rank_bg.gif) repeat-x 0 0; height:31px; width:253px}
+.hitoRankTitle .menu li { float:left;cursor:pointer; line-height:22px;height:31px; text-align:center;padding:0;margin:0;width:86px; color:#fff}
+.hitoRankTitle .menu li.selected { position:relative;  margin:0; padding:0 0 0px 0; background:url(../imgs/rank_sub_tab.gif) -10px bottom;width:86px; }
+.hitoRankTitle .menu li a {color:#FFF;}
+.hitoRankTitle .menu li a:hover {color:#fcca0f; text-decoration:none;}
+.title a:visited {color:#FF0000}
+.hitoRankTitle {color:#fcca0f;}
+.menu-w100 .menu li { width:63px; }
+.menu-w100 .menu li.selected { background-position:-150px 0; color:#fcca0f;width:63px;}
+.contentBoxBody { margin:0px; padding:0 10px; width:235px; overflow:hidden;}
+.contentBoxBody ol {margin-top:0px;*margin-top:14px !important; padding:0}
+.contentBoxBody ol li {margin:0; padding:0}
+
+#hitoRank p.rankImg {float:left;border:1px solid #999;display:inline; width:80px; height:80px; margin:0 10px 0 6px;}
+.crown {color:#e68503; font-size:16px; font-weight:bold; letter-spacing:2px;background: url(../imgs/icon_rankCrown.gif) 0 2px no-repeat; padding-left:20px;padding-top:4px;margin-right:5px;}
+.crownNone {color:#e68503; font-size:14px;font-weight:bold;margin:0 5px;letter-spacing:2px;}
+#hitoRank p.rankTit {clear:both; line-height:19px;margin-top:2px ;line-height:18px \9;*line-height:21px;}
+
+
+.btnMore a {color:#333; }
+
